@@ -1,0 +1,27 @@
+body{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    text-align: center;
+}
+section div{
+    align-items: center;
+}
+section div p{
+    border: solid 1px #999;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.grid{
+    
+    display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 100px;
+  grid-gap: 20px;
+}
+.boite{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    justify-content: space-between;
+}

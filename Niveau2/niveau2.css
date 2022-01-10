@@ -1,0 +1,56 @@
+body{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    text-align: center;
+}
+
+section div div{
+    border: solid 1px #999;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.grid{
+    
+    display: grid;
+  grid-template-columns: 400px 400px 400px;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-auto-rows: minmax(5px, auto);
+    grid-template-areas: 
+        "a a a "
+        "b c c "
+        "d d e"
+        "f g h";
+        height: 1200px;
+}
+
+.head{
+    background-color: aqua;
+    grid-area: a;
+}
+.head2{
+    grid-area: b;
+}
+.head3{
+    grid-area: c;
+}
+.head4{
+    grid-area: d;
+}
+.head5{
+    grid-area: e;
+}
+.head6{
+    grid-area: f;
+}
+.head7{
+    grid-area: g;
+}
+.head8{
+    grid-area: h;
+}
